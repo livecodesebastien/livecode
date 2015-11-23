@@ -51,4 +51,4 @@ TEST_RUNNER_SCRIPT = _testrunner.livecodescript
 
 livecodescript-check: $(ENGINE)
 	@rm -f $(TEST_LOG)
-	$(ENGINE) $(ENGINE_FLAGS) $(TEST_RUNNER_SCRIPT) run
+	$(ENGINE) $(ENGINE_FLAGS) $(TEST_RUNNER_SCRIPT) run core/engine/engine.livecodescript
